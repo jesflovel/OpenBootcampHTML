@@ -1,0 +1,44 @@
+.contendedor-hidden{
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.contendedor-scroll{
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: scroll;
+}
+
+.contendedor-scroll-x{
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.contendedor-visible{
+    margin: 10px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: visible;
+}
+
+.contendedor-auto{
+    margin: 200px 0px;
+    background-color: bisque;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: auto;
+}
