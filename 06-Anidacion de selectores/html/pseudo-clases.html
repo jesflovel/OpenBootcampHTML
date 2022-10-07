@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo clases</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .hover {
+            width: 300px;
+            height: 100px;
+            background-color: bisque;
+        }
+
+        .hover:hover {
+            /*Se activa cuando el puntero pasa por encima del elemento */
+            background-color: burlywood;
+        }
+
+        .listado {
+            padding: 15px;
+            background-color: aquamarine;
+        }
+
+        p:first-child {
+            color: white;
+        }
+
+        a:link {
+            /*Link no visitado todavia*/
+            color: deeppink;
+        }
+
+        a:visited {
+            /*Link ya visitado*/
+            color: crimson;
+        }
+
+        a:hover {
+            /*Cuando posicionas el puntero sobre el link*/
+            color: pink;
+        }
+
+        a:active {
+            color: greenyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hover">
+        <p>Excepteur aliqua magna pariatur dolore magna mollit elit dolore adipisicing dolor ad qui aute aute.
+            Adipisicing aliquip eiusmod tempor consectetur ipsum ad esse ad aliqua nulla velit commodo. Enim ipsum
+            eiusmod elit velit nisi.</p>
+    </div>
+    <div class="listado">
+        <p>Párrafo 1</p>
+        <p>Párrafo 2</p>
+        <p>Párrafo 3</p>
+    </div>
+    <div class="enlaces">
+        <a href="http://google.com" target="_blank">Enlace a Google</a>
+        <a href="http://marca.com" target="_blank">Enlace a marca</a>
+    </div>
+</body>
+
+</html>
